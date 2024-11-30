@@ -1,0 +1,194 @@
+
+body{
+    background-image: url(17673431-papel-de-parede-padrao-de-tijolo-fundo-da-parede-de-tijolos-papel-de-parede-de-tijolo-branco-gratis-vetor\ 1.png);
+}
+.ImagemLogo{
+  text-align: center;
+  background-color: #00BDE8;
+  margin-top: -8px;
+}
+.Section1 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* A seção ocupa a altura total da tela */
+    overflow: hidden; /* Garante que nada além dos limites seja exibido */
+
+}
+
+.Section1 video {
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    width: 100%;
+    height: 70%;
+    object-fit: cover; /* Ajusta o vídeo para cobrir toda a área sem distorção */
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Mantém o vídeo no plano de fundo */
+}
+
+/* Configurações da seção de cards */
+.CardSection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+/* Estilo do card */
+.Card {
+    width: 300px;
+ background-color: #00BDE8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem do card */
+.CardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Conteúdo do card */
+.CardContent {
+    padding: 15px;
+    text-align: center;
+}
+
+.CardTitle {
+    font-size: 1.5rem;
+    color:rebeccapurple;
+    margin: 10px 0;
+}
+
+.CardDescription {
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px 0;
+}
+
+/* Rodapé do card */
+.CardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.CardPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.Btn {
+    padding: 10px 15px;
+    background: orange;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+}
+
+.Btn:hover {
+    background: #219150;
+}
+
+/* Configurações da seção de cards */
+.CardSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   display: grid;
+    
+}
+
+/* Estilo do card */
+.Card2 {
+    width: 300px;
+ background-color: #00BDE8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem do card */
+.CardImage2 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Conteúdo do card */
+.CardContent2 {
+    padding: 15px;
+    text-align: center;
+}
+
+.CardTitle2 {
+    font-size: 1.5rem;
+    color:rebeccapurple;
+    margin: 10px 0;
+}
+
+.CardDescription2 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px 0;
+}
+
+/* Rodapé do card */
+.CardFooter2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.CardPrice2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.Btn2 {
+    padding: 10px 15px;
+    background: orange;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+}
+
+.Btn2:hover {
+    background: #219150;
+}
+.GRID{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: -240px; 
+color: black;
+font-size: 50px;
+}
